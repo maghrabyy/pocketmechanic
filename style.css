@@ -32,9 +32,12 @@ body {
 #showcase h1 {
   padding-top: 100px;
   text-align: start;
+  margin: 0.2em;
 }
 #showcase p {
   text-align: start;
+  margin: 0.2em;
+  padding: 0.6em;
 }
 .navmenu {
   padding-top: 100px;
