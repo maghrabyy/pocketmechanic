@@ -1,5 +1,6 @@
 /* Core styles */
 body {
+  margin: 0;
   background: #333;
   font-family: Arial, Helvetica, sans-serif;
   color: #eaeaea;
@@ -8,7 +9,7 @@ body {
 }
 
 #imgsize {
-  width: 100%;
+  width: 98%;
   height: auto;
 }
 
