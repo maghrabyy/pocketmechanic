@@ -12,29 +12,6 @@ body {
   height: auto;
 }
 
-/* Header */
-/* #showcase {
-  min-height: 450;
-  padding: 1em;
-}
-
-#showcase .bg-image {
-  position: absolute;
-  background: #333 url(/imgs/mechanic.jpg);
-  height: 450;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-header p,
-h1 {
-  text-align: start;
-} */
-
-/* Header Showcase */
-
 #showcase {
   min-height: 350px;
 }
