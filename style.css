@@ -128,8 +128,16 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 4px;
   }
+  .navmenu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    padding: 1em;
+    margin: 1em;
+  }
   #imgsize {
-    width: 80%;
+    width: 60%;
     height: auto;
   }
   .section-a {
@@ -141,7 +149,9 @@ footer {
   }
   .section-b {
     border: #666 solid;
+    height: 300px;
     display: block;
+    width: 80%;
     grid-column: 11 / -1;
   }
   .section-a h3 {
