@@ -71,7 +71,7 @@ body {
   position: absolute;
   font-size: 1.7em;
   margin-top: 34%;
-  padding-left: 25%;
+  padding-left: 22%;
   color: #fff;
   text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333,
     1px 1px 0 #333;
@@ -86,10 +86,9 @@ body {
 }
 
 .androiddownload a {
-  width: 100%;
-  border: solid #666 0.1px;
+  border: solid #666;
   background: #333;
-  display: inline-block;
+  display: block;
   padding: 1em;
   text-decoration: none;
   color: #fff;
@@ -103,10 +102,9 @@ body {
 }
 
 .iosdownload a {
-  width: 100%;
-  border: solid #666 0.1px;
+  border: solid #666;
   background: #333;
-  display: inline-block;
+  display: block;
   padding: 1em;
   text-decoration: none;
   color: #fff;
@@ -130,8 +128,12 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 4px;
   }
+  #imgsize {
+    width: 80%;
+    height: auto;
+  }
   .section-a {
-    grid-column: 1 / 11;
+    grid-column: 2 / 11;
     margin: 1em;
   }
   .section-a h3 {
@@ -139,14 +141,25 @@ footer {
   }
   .section-b {
     border: #666 solid;
-    display: inline-block;
+    display: block;
     grid-column: 11 / -1;
   }
-
+  .section-a h3 {
+    margin-top: 15%;
+    padding-left: 25%;
+  }
   .downloads {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 4px;
+    grid-gap: 10px;
+  }
+  .androiddownload a {
+    border-left-style: hidden;
+    border-right-style: hidden;
+  }
+  .iosdownload a {
+    border-left-style: hidden;
+    border-right-style: hidden;
   }
 }
